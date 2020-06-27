@@ -1,0 +1,50 @@
+
+
+@keyframes moveInRight {
+    0% {
+        transform: translateX(-80%);
+        opacity: 0;
+    }
+    60% {
+        transform: translateX(20%);
+        opacity: .8;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes moveInLeft {
+    /*before animation starts*/
+    0% {
+        transform: translateX(80%);
+        opacity: .2;
+    }
+
+    60% {
+        transform: translateX(-20%);
+        opacity: .8;
+
+    }
+    /*when animation finishes*/
+
+    100% {
+        transform: translateX(0);
+        opacity: 1  ;
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        transform: translateY(10rem);
+        opacity: 0
+    }
+    60% {
+        transform: translateY(-3rem);
+        opacity: .8;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
